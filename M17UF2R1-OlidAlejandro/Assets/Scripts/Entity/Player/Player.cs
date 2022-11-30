@@ -45,7 +45,7 @@ public class Player : Character
 
     void InputMovement()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+       /* if (Input.GetKeyDown(KeyCode.A))
         {
             rigidbody2D.AddForce(Vector2.left * velocity, ForceMode2D.Impulse);
         }
@@ -60,6 +60,6 @@ public class Player : Character
         if (Input.GetKeyDown(KeyCode.W))
         {
             rigidbody2D.AddForce(Vector2.up * velocity, ForceMode2D.Impulse);
-        }
+        } */
     }
 }
