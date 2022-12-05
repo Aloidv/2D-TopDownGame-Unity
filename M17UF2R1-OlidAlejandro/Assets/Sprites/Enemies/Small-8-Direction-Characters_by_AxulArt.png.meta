@@ -1,0 +1,1779 @@
+fileFormatVersion: 2
+guid: 3571572ec0cbfc843a3534420c7e16f4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 226
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000a671c67ddf024dbf4f6bb434dddf3
+      internalID: -227707949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 226
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e86e62cb1591664ba1deee4dfc04007
+      internalID: 2110703974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 226
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6f7657e1d93404f9dbfa41038ea2c3
+      internalID: 1052742640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 226
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d679d4a2adb4c9c4e9ce8ef0e4c15403
+      internalID: -595863461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 226
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90281fec673d04343b1d6a27e574da3f
+      internalID: -596308774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 226
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398605bf81bde7d4db282e34d2f1af1d
+      internalID: 917688747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 226
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b9e3becff21bc4295cd621bf51ad96
+      internalID: -1107215914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 226
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e296feb60ccf2c345b485c328940bab8
+      internalID: -936994249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 202
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc8f9afa311e9946a57a4b969be5303
+      internalID: -2146161190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 202
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6770b02d54823418df48f1dfa73e12
+      internalID: 488923392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 202
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e35f7d42f6a5ed40bfa1f834b510f36
+      internalID: 1106381039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 202
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31125b2d46432b74c86ba441ac1d9924
+      internalID: -1613010955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 202
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5aff079fe47bd4cb42a3582bd32167
+      internalID: -1888632987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 202
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e079db2e01e369e4a837bcafdc9c6ce5
+      internalID: 1465953369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 202
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd08cb2076712d45a52e6b7c806fe3d
+      internalID: 1558156233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 202
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fe7717a3c73cb4c8b54b11823cafbd
+      internalID: 1218962764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 178
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e821396d3726e4bb14e068f250efc7
+      internalID: -268098602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 178
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410c7a295e2d0d544ab87d917537d4c5
+      internalID: 564221026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 178
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd8a6219d53ad24dae64759440ec9cd
+      internalID: 1734879618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_27
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 178
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b74e91c0288e941a28e3ee4d9abe77
+      internalID: -170809708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 178
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f1e3a7efb91c149a65fd73262b55da
+      internalID: 1111344786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 178
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fd8adc34572a44b8fd42580748601c
+      internalID: -902500426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 178
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e42332bb2470b488c3d01b4502cf2b
+      internalID: 441538709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_31
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 178
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7291841c8811742ae6d63f0a9b2de2
+      internalID: -459426200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc093da90b830ec46b4dac96f072e2b8
+      internalID: -1638426098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbf510a3a0473e49a5cef742c602da8
+      internalID: -1250345144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 138
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfaab7b3a5dfed4cba29f579fb7426c
+      internalID: 502809981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 138
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6220531c462673478c86636918ace42
+      internalID: -175755512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_44
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 138
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db388109026e96429c6ee1df31e3ee2
+      internalID: -2132892588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 138
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbc2f716f8ae0849b06b3ebbd36b883
+      internalID: -1233331525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 138
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e991099358fcc9349af0839621520923
+      internalID: 1759041060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db0d0107146f064888186ce1ea1827e
+      internalID: 1697454491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d546f5ecbc28441a1591800e843618
+      internalID: -1567569546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 114
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24b4d57ea6e6f04bb9c27628b9e2efe
+      internalID: 2146142373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 114
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98151f45f294280458f8b9d806d0605e
+      internalID: 1433342667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_51
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a198543cbe4ac2a4e8e016de5767f8d3
+      internalID: -1503577958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_52
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 114
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348fc0045a3ecd241b9e1dd6f4e1f0a6
+      internalID: 373421344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 114
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d963087acceec02409fd6d0fbe0da6c2
+      internalID: 1992525766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 114
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7428b38ff4c8a5c4f9230a2b553caca0
+      internalID: 1599161546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 114
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b049a6200290b4ca6b0b516e6eb870
+      internalID: 299660689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7ab3abfab614448a2b2dee69647885
+      internalID: -2085521205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e868368530adaa4cac7350f4090839e
+      internalID: 1569677632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 90
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eeed4fda7cf13448eaae6e6879c1eb
+      internalID: 1608577318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_59
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 90
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a38efd404ad5d041ae228e173b76ec1
+      internalID: 280409735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_60
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 90
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4745ef77fbf5e5b42b00b554db249362
+      internalID: 417390580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 90
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab22ab98a0970e47aa2533d56817fa0
+      internalID: 2141568004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 90
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830d12a038b3f2d4684b44b78334b3dd
+      internalID: -1651215235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_63
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 90
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bebbb685b8a1e43a1e67d8edb95f30
+      internalID: 1274222264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b816ad6a71bed142ab32d5b7ad5bbc8
+      internalID: 1694703368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_73
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 50
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47202939224fd04aa04ee374ca54928
+      internalID: 1474870054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4820ffecdba5f584fb41f3db41d7ed69
+      internalID: 1827170006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_75
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dc1b83a6a85f742bbd8110f8824cc7
+      internalID: -1978708698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_76
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 50
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95ff93cd0e79ad48b7d6480eb9f49b7
+      internalID: -1326605612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_77
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 50
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e5b9477573eef41b5949b8a6a14e35
+      internalID: 1451386065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 50
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ff639bdcc791540aecddc491c02f46
+      internalID: 2060793684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_79
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 50
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272db24d814002e4abe9c3d058d711c1
+      internalID: 97408085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0221c5dfcfe8b34cb0224c02a6b7543
+      internalID: 229768691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_81
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 26
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a0d9ee2ab155349952be157ae9161a
+      internalID: 951705900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 26
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b3a20921235534bac2cb7ff3d7a67d
+      internalID: -1209182669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_83
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 26
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261fac1820ded334fa9836f8a0e30702
+      internalID: 16281409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_84
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 26
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9348d1f8ffb9324790205f5ed7a83c5
+      internalID: 164206703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 26
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a317b4047bf2d9b4c84915586f71b8a1
+      internalID: 1924192607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 26
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1dadcfc66ed9e42959181f218d9589
+      internalID: -1475483109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_87
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 26
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f57e8efb418e6b4999d93a92cdb679c
+      internalID: 565108678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cb0cdfa46507d4289a010a82ead4ad
+      internalID: 671787433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcb8f647171c2d48bfd6d3f8218da58
+      internalID: 1589736688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_90
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d06ce63a194ff43942ad73514c2a3e
+      internalID: -1083857894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_91
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ff052d179992a4eb752100ce9f4923
+      internalID: -1411650017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_92
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70427a2aae1b93c4c82c9d54876e4ea1
+      internalID: -1293841083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_93
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84674bac676b0964db80c4562a2cfbee
+      internalID: 328219293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99be3dc871032214c9cf15878d1a9513
+      internalID: 1569084646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small-8-Direction-Characters_by_AxulArt_95
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995e97031e83eac44bb00d46eafabcca
+      internalID: 1467713998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Small-8-Direction-Characters_by_AxulArt_42: 502809981
+      Small-8-Direction-Characters_by_AxulArt_65: 113334317
+      Small-8-Direction-Characters_by_AxulArt_32: -669019974
+      Small-8-Direction-Characters_by_AxulArt_59: 280409735
+      Small-8-Direction-Characters_by_AxulArt_38: 1499320003
+      Small-8-Direction-Characters_by_AxulArt_12: -596308774
+      Small-8-Direction-Characters_by_AxulArt_14: -1107215914
+      Small-8-Direction-Characters_by_AxulArt_45: -1233331525
+      Small-8-Direction-Characters_by_AxulArt_80: 229768691
+      Small-8-Direction-Characters_by_AxulArt_10: 1052742640
+      Small-8-Direction-Characters_by_AxulArt_50: 1433342667
+      Small-8-Direction-Characters_by_AxulArt_2: -1503865871
+      Small-8-Direction-Characters_by_AxulArt_63: 1274222264
+      Small-8-Direction-Characters_by_AxulArt_71: 822237052
+      Small-8-Direction-Characters_by_AxulArt_49: 2146142373
+      Small-8-Direction-Characters_by_AxulArt_53: 1992525766
+      Small-8-Direction-Characters_by_AxulArt_87: 565108678
+      Small-8-Direction-Characters_by_AxulArt_18: 1106381039
+      Small-8-Direction-Characters_by_AxulArt_60: 417390580
+      Small-8-Direction-Characters_by_AxulArt_11: -595863461
+      Small-8-Direction-Characters_by_AxulArt_91: -1411650017
+      Small-8-Direction-Characters_by_AxulArt_89: 1589736688
+      Small-8-Direction-Characters_by_AxulArt_39: 1917504760
+      Small-8-Direction-Characters_by_AxulArt_94: 1569084646
+      Small-8-Direction-Characters_by_AxulArt_67: -1543148058
+      Small-8-Direction-Characters_by_AxulArt_16: -2146161190
+      Small-8-Direction-Characters_by_AxulArt_86: -1475483109
+      Small-8-Direction-Characters_by_AxulArt_43: -175755512
+      Small-8-Direction-Characters_by_AxulArt_76: -1326605612
+      Small-8-Direction-Characters_by_AxulArt_62: -1651215235
+      Small-8-Direction-Characters_by_AxulArt_8: -227707949
+      Small-8-Direction-Characters_by_AxulArt_3: -1659346215
+      Small-8-Direction-Characters_by_AxulArt_44: -2132892588
+      Small-8-Direction-Characters_by_AxulArt_64: -984337371
+      Small-8-Direction-Characters_by_AxulArt_73: 1474870054
+      Small-8-Direction-Characters_by_AxulArt_0: 1878308113
+      Small-8-Direction-Characters_by_AxulArt_17: 488923392
+      Small-8-Direction-Characters_by_AxulArt_70: -2088155684
+      Small-8-Direction-Characters_by_AxulArt_34: -615964337
+      Small-8-Direction-Characters_by_AxulArt_24: -268098602
+      Small-8-Direction-Characters_by_AxulArt_48: -1567569546
+      Small-8-Direction-Characters_by_AxulArt_88: 671787433
+      Small-8-Direction-Characters_by_AxulArt_20: -1888632987
+      Small-8-Direction-Characters_by_AxulArt_27: -170809708
+      Small-8-Direction-Characters_by_AxulArt_54: 1599161546
+      Small-8-Direction-Characters_by_AxulArt_69: 824349885
+      Small-8-Direction-Characters_by_AxulArt_29: -902500426
+      Small-8-Direction-Characters_by_AxulArt_35: -1538097453
+      Small-8-Direction-Characters_by_AxulArt_31: -459426200
+      Small-8-Direction-Characters_by_AxulArt_51: -1503577958
+      Small-8-Direction-Characters_by_AxulArt_82: -1209182669
+      Small-8-Direction-Characters_by_AxulArt_26: 1734879618
+      Small-8-Direction-Characters_by_AxulArt_21: 1465953369
+      Small-8-Direction-Characters_by_AxulArt_95: 1467713998
+      Small-8-Direction-Characters_by_AxulArt_85: 1924192607
+      Small-8-Direction-Characters_by_AxulArt_56: -2085521205
+      Small-8-Direction-Characters_by_AxulArt_68: 1818736813
+      Small-8-Direction-Characters_by_AxulArt_77: 1451386065
+      Small-8-Direction-Characters_by_AxulArt_28: 1111344786
+      Small-8-Direction-Characters_by_AxulArt_47: 1697454491
+      Small-8-Direction-Characters_by_AxulArt_84: 164206703
+      Small-8-Direction-Characters_by_AxulArt_58: 1608577318
+      Small-8-Direction-Characters_by_AxulArt_37: -209651019
+      Small-8-Direction-Characters_by_AxulArt_57: 1569677632
+      Small-8-Direction-Characters_by_AxulArt_90: -1083857894
+      Small-8-Direction-Characters_by_AxulArt_30: 441538709
+      Small-8-Direction-Characters_by_AxulArt_6: -1489589066
+      Small-8-Direction-Characters_by_AxulArt_55: 299660689
+      Small-8-Direction-Characters_by_AxulArt_78: 2060793684
+      Small-8-Direction-Characters_by_AxulArt_1: 656079
+      Small-8-Direction-Characters_by_AxulArt_33: 578979166
+      Small-8-Direction-Characters_by_AxulArt_19: -1613010955
+      Small-8-Direction-Characters_by_AxulArt_93: 328219293
+      Small-8-Direction-Characters_by_AxulArt_13: 917688747
+      Small-8-Direction-Characters_by_AxulArt_23: 1218962764
+      Small-8-Direction-Characters_by_AxulArt_74: 1827170006
+      Small-8-Direction-Characters_by_AxulArt_61: 2141568004
+      Small-8-Direction-Characters_by_AxulArt_79: 97408085
+      Small-8-Direction-Characters_by_AxulArt_83: 16281409
+      Small-8-Direction-Characters_by_AxulArt_81: 951705900
+      Small-8-Direction-Characters_by_AxulArt_22: 1558156233
+      Small-8-Direction-Characters_by_AxulArt_7: 2088593784
+      Small-8-Direction-Characters_by_AxulArt_4: 1852094094
+      Small-8-Direction-Characters_by_AxulArt_36: -1881409009
+      Small-8-Direction-Characters_by_AxulArt_15: -936994249
+      Small-8-Direction-Characters_by_AxulArt_41: -1250345144
+      Small-8-Direction-Characters_by_AxulArt_40: -1638426098
+      Small-8-Direction-Characters_by_AxulArt_52: 373421344
+      Small-8-Direction-Characters_by_AxulArt_46: 1759041060
+      Small-8-Direction-Characters_by_AxulArt_9: 2110703974
+      Small-8-Direction-Characters_by_AxulArt_25: 564221026
+      Small-8-Direction-Characters_by_AxulArt_72: 1694703368
+      Small-8-Direction-Characters_by_AxulArt_66: 879551794
+      Small-8-Direction-Characters_by_AxulArt_75: -1978708698
+      Small-8-Direction-Characters_by_AxulArt_92: -1293841083
+      Small-8-Direction-Characters_by_AxulArt_5: -805830453
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
