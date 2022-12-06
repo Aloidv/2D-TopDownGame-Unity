@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 52724908}
   - component: {fileID: 52724907}
-  - component: {fileID: 52724909}
   m_Layer: 0
   m_Name: EnemyTorret
   m_TagString: Enemy
@@ -208,32 +207,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &52724909
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52724906}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &332038760
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,13 +444,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 440610416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cb09846410a3394981de9ad1ca6b8b4, type: 3}
+  m_Script: {fileID: 11500000, guid: c78259dca3e8eb34d8342fada24993e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AttackVelocity: 10
+  AttackCooldown: 10
   Bullet: {fileID: 4545288555734019823, guid: 0660784cb4474554592095f608357c36, type: 3}
+  Size: 1
   BulletDirection: {x: 0, y: 0}
-  GunMagazine: 0
 --- !u!212 &440610419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -651,7 +625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480625265}
   - component: {fileID: 480625267}
-  - component: {fileID: 480625268}
+  - component: {fileID: 480625266}
   m_Layer: 0
   m_Name: Drone
   m_TagString: Untagged
@@ -674,6 +648,23 @@ Transform:
   m_Father: {fileID: 1315503927}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &480625266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480625264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8784d54a3880d844a847fed6800a0b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackVelocity: 0
+  AttackCooldown: 0
+  Bullet: {fileID: 0}
+  Size: 0
+  BulletDirection: {x: 0, y: 0}
 --- !u!212 &480625267
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -726,22 +717,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &480625268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480625264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70642e6b94a1b504592ecaf17ce67490, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AttackVelocity: 10
-  Bullet: {fileID: 4545288555734019823, guid: 0660784cb4474554592095f608357c36, type: 3}
-  BulletDirection: {x: 0, y: 0}
-  GunMagazine: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,9 +860,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackVelocity: 0
-  Bullet: {fileID: 4545288555734019823, guid: 0660784cb4474554592095f608357c36, type: 3}
+  AttackCooldown: 0
+  Bullet: {fileID: 0}
+  Size: 0
   BulletDirection: {x: 0, y: 0}
-  GunMagazine: 0
 --- !u!212 &559875339
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -986,6 +962,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackVelocity: 0
+  AttackCooldown: 0
+  Bullet: {fileID: 0}
+  Size: 0
+  BulletDirection: {x: 0, y: 0}
 --- !u!212 &684183389
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1048,7 +1028,6 @@ GameObject:
   m_Component:
   - component: {fileID: 798355872}
   - component: {fileID: 798355871}
-  - component: {fileID: 798355873}
   m_Layer: 0
   m_Name: 'EnemySimple '
   m_TagString: Enemy
@@ -1123,32 +1102,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &798355873
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798355870}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &1102095086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,6 +1148,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackVelocity: 0
+  AttackCooldown: 0
+  Bullet: {fileID: 0}
+  Size: 0
+  BulletDirection: {x: 0, y: 0}
 --- !u!212 &1102095089
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1524,15 +1481,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916620d0912a9244fb1b3c933c39c60f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 10
+  velocity: 5
   Weapons:
-  - {fileID: 480625268}
+  - {fileID: 480625266}
   - {fileID: 440610418}
-  - {fileID: 684183388}
-  - {fileID: 559875338}
   - {fileID: 1102095088}
-  isDashing: 0
-  Weight: 10
+  - {fileID: 559875338}
+  - {fileID: 684183388}
 --- !u!4 &1754827800
 Transform:
   m_ObjectHideFlags: 0
@@ -1541,7 +1496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754827796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.39, y: 0.6, z: 0}
+  m_LocalPosition: {x: 0.82, y: 0.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1562,7 +1517,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -1570,7 +1525,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!61 &1754827802
 BoxCollider2D:
   m_ObjectHideFlags: 0

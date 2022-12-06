@@ -5,86 +5,61 @@ using UnityEngine;
 
 public class Player : Character
 {
-    [SerializeField]
-    List<Weapon> Weapons;
-    WeaponHolder weaponHolder;
-
-    [SerializeField]
-    bool isDashing;
-
-    [SerializeField]
-    int Weight;
-
-
-    Rigidbody2D rb;
-    SpriteRenderer spriteRenderer;
-    Vector2 translationFinal;
+    public List<Weapon> Weapons;
 
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        weaponHolder = gameObject.GetComponentInChildren<WeaponHolder>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
+
     }
 
     void Update()
     {
-        InputDash();
-        InputMovement();
-        InputDirection();
-        InputAttack();
-
-    }
-
-    void FixedUpdate()
-    {
-        //Movement
-        rb.MovePosition(rb.position + translationFinal);
-        Dash();
-    }
 
 
 
-    void InputDash()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if ( Input.GetMouseButtonDown(0) )
         {
-            isDashing = true;
+            Shoot();
         }
+
+
+        InputDirection();
+        InputMovement();
     }
 
 
-    void Dash()
+
+    private void Shoot()
     {
-        new WaitForSeconds(5);
-        isDashing = false;
     }
 
-    //Se puede hacer desde el animator con 8 direcciones esperar a alvaro?
-
-    void InputDirection()
+    private void InputDirection()
     {
-        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 direction = mousePosition - rb.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 direction = mousePosition - transform.position;
+        float angle = Vector2.SignedAngle(Vector2.right, direction);
+        transform.eulerAngles = new Vector3(0, 0, angle);
     }
 
     void InputMovement()
     {
-        float translationVertical = Input.GetAxis("Vertical");
-        float translationHorizontal = Input.GetAxis("Horizontal");
-        translationFinal = new Vector2(translationHorizontal, translationVertical).normalized  * Time.deltaTime * velocity * 100 / Weight;
-    }
-
-    internal override void InputAttack()
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+       /* if (Input.GetKeyDown(KeyCode.A))
         {
-            // Cada tipo de arma tiene un override de Attack()
-            // indicando el arma seleccionada llamo a su metodo
-            Weapons[weaponHolder.SelectedWeapon].Attack();
+            rigidbody2D.AddForce(Vector2.left * velocity, ForceMode2D.Impulse);
         }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            rigidbody2D.AddForce(Vector2.right * velocity, ForceMode2D.Impulse);
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            rigidbody2D.AddForce(Vector2.down * velocity, ForceMode2D.Impulse);
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            rigidbody2D.AddForce(Vector2.up * velocity, ForceMode2D.Impulse);
+        } */
     }
 }
