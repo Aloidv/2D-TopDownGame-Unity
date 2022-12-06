@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProtectiveField : Weapon
+public class Gun : DistanceWeapon
 {
     // Start is called before the first frame update
     void Start()
@@ -13,6 +13,5 @@ public class ProtectiveField : Weapon
     // Update is called once per frame
     void Update()
     {
-        
     }
 }

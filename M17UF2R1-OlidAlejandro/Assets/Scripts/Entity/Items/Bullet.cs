@@ -5,16 +5,15 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public int BulletSize = 1;
-    public int BulletVelocity = 1000;
-    
-    void Start()
-    {
-        GetComponent<Rigidbody2D>().velocity = gameObject.transform.position*BulletVelocity;
-    }
+    public int BulletVelocity = 10;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject);
+        }
+
+        Destroy(this);
     }
 }

@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+public abstract class Character : MonoBehaviour
 {
-    internal Rigidbody2D rigidbody2D;
-    public int velocity;
+    [SerializeField]
+    internal int velocity;
 
     void Start()
     {
@@ -16,4 +16,6 @@ public class Character : MonoBehaviour
     {
         
     }
+
+    internal abstract void InputAttack();
 }

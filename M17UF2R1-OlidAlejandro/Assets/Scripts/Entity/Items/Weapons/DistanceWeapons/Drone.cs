@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gun : Weapon
+public class Drone : DistanceWeapon
 {
-    // Start is called before the first frame update
     void Start()
     {
         
@@ -13,6 +12,6 @@ public class Gun : Weapon
     // Update is called once per frame
     void Update()
     {
-        Shoot();
+        
     }
 }
