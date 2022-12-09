@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public int BulletSize = 1;
-    public int BulletVelocity = 1000;
+    [SerializeField]
+    [Range(1.0f, 10.0f)]
+    int BulletSize = 1;
+
+    [SerializeField]
+    [Range(5.0f, 20.0f)]
+    int BulletVelocity = 10;
     
     void Start()
     {
-        GetComponent<Rigidbody2D>().velocity = gameObject.transform.position*BulletVelocity;
+        transform.localScale *= BulletSize;
     }
 
-    // Update is called once per frame
-    void Update()
+    public int GetBulletVelocity()
     {
-        
+        return BulletVelocity;
     }
 }

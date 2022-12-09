@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 554184933}
   - component: {fileID: 554184932}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Bullet Rocker Launcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0.24067582, b: 0, a: 1}
+  m_Color: {r: 0.958199, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80060fb264d3484d88a117f8ff47310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletSize: 1
-  BulletVelocity: 10
+  BulletSize: 5
+  BulletVelocity: 5
 --- !u!50 &554184933
 Rigidbody2D:
   serializedVersion: 4

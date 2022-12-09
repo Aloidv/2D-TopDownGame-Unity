@@ -1,47 +1,70 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class WeaponHolder : MonoBehaviour
 {
-    public int SelectedWeapon = 0;
+
+    [SerializeField]
+    int IndexSelectedWeapon = 0;
+
+    [SerializeField]
+    Weapon SelectedWeapon;
+
+    [SerializeField]
+    List<Weapon> Weapons;
+
+    SpriteRenderer spriteRenderer;
+
+    private void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        SelectedWeapon = Weapons[0];
+    }
+
     void Update()
     {
-        int previousSelectedWeapon = SelectedWeapon;
+        int previousSelectedWeapon = IndexSelectedWeapon;
 
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
-            if (SelectedWeapon >= transform.childCount - 1)
+            if (IndexSelectedWeapon >= Weapons.Count - 1)
             {
-                SelectedWeapon = 0;
+                IndexSelectedWeapon = 0;
             }
             else
             {
-                SelectedWeapon++;
+                IndexSelectedWeapon++;
             }
         }
 
-        if (previousSelectedWeapon != SelectedWeapon)
+        if (previousSelectedWeapon != IndexSelectedWeapon)
         {
             SelectWeapon();
+            ChangeWeapon();
         }
+    }
+
+    private void ChangeWeapon()
+    {
+        spriteRenderer.sprite = SelectedWeapon.GetSprite();
     }
 
     private void SelectWeapon()
     {
-        int i = 0;
-        foreach (Transform weapon in transform)
+        foreach (Weapon weapon in Weapons)
         {
-            if (i == SelectedWeapon)
+            if (IndexSelectedWeapon == Weapons.IndexOf(weapon))
             {
-                weapon.gameObject.SetActive(true);
+                SelectedWeapon = Weapons[IndexSelectedWeapon];
             }
-            else
-            {
-                weapon.gameObject.SetActive(false);
-            }
-            i++;
         }
+    }
+
+    public Weapon GetSelectedWeapon()
+    {
+        return SelectedWeapon;
     }
 }
