@@ -15,5 +15,5 @@ MonoBehaviour:
   Sprite: {fileID: 21300000, guid: 9125c204f566db048a92ebcb64d9d14a, type: 3}
   Size: 2
   AttackVelocity: 5
-  AttackCooldown: 5
+  AttackCooldown: 0.1
   Bullet: {fileID: 4545288555734019823, guid: 0660784cb4474554592095f608357c36, type: 3}

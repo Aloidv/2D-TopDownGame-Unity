@@ -1025,6 +1025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Velocity: 5
   WeaponHolder: {fileID: 0}
+  SelectedWeapon: {fileID: 0}
 --- !u!4 &1754827800
 Transform:
   m_ObjectHideFlags: 0

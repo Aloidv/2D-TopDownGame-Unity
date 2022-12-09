@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: daf2ab606d4db0d4f9ecf4c02137d2a8, type: 3}
   Size: 5
-  AttackVelocity: 5
-  AttackCooldown: 2
+  AttackVelocity: 10
+  AttackCooldown: 1
   Bullet: {fileID: 4545288555734019823, guid: 8fa40af0a3649374f87a59b19b6ea5b8, type: 3}
