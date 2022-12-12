@@ -1,92 +1,123 @@
 # M17UF2R1-OlidAlejandro
 
-
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Ayuda a los obreros proporcionandoles herramientas o ayuda,te recompensarán con monedas si les dejas ir antes...
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/alejandro.olid.7e5/m17uf2r1-olidalejandro.git
-git branch -M main
-git push -uf origin main
+# ROGUE CHAPUZAS
+
 ```
 
-## Integrate with your tools
+## Project info
 
-- [ ] [Set up project integrations](https://gitlab.com/alejandro.olid.7e5/m17uf2r1-olidalejandro/-/settings/integrations)
+Aquesta entrega es centra en crear un gameplay d’on parteix el nostre joc. Definició i verbs del player, animacions, verbs, items, armes, vida, enemics. Quant més preparada estigui aquesta base, més fàcil i més lluny es podrà arribar en el següent pas.
+Llistat de punts a desenvolupar
+R1.1 Personatge Jugador:
+Moviment del jugador: moviment lliure en el pla. Animacions
+Orientació del personatge segons posició del mouse (independent al moviment) 
+Verbs:
+Canvi d'arma: 
+Col·lecció de fins a 5 armes.
+Canvi d'arma: rodeta del mouse o X o C
+Atac: segons l'arma a la que s'està
+Distància: 
+Direcció del tret: segons posició del punter del ratolí.
+tipus de projectil i força segons l'arma
+Número de projectils
+Cadència de foc
+Dash: 
+Variable d'unitats d'avançament ràpid. Els enemics no fan mal durant el moviment de dash.
+Ha de tenir un temps de Cooldown
+Impuls en línia recta segons orientació  personatge
 
-## Collaborate with your team
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
 
-## Test and Deploy
+R1.2 Escenari, items i HUD
+Barra de vida: 
+Tamany segons la vida màxima que té el jugador
+Mostra la vida actual
+Punts: per impacte a un enemic, mort de l'enemic, per element agafat i pantalla realitzada
+Escenari: 
+Escenari en forma d'habitació o sala gran amb mínim dues portes. Ara tancades.
 
-Use the built-in continuous integration in GitLab.
+crear un escenari (prefab) de proves top down amb l'eina tilemap
+Elements no destruïbles: murs, columnes. No deixen passar, no es poden destruir.
+Elements destruïbles:
+No deixen passar fins que són destruïts
+Tenen un % de probabilitats que al destruir-se deixarà caure un item.
+Items:
+Arma: 
+Crear Armes utilitzant herències.
+Les armes item tenen un valor de bales.
+Si s'agafa una arma que ja es té aumenta el número de bales.
+Vida: kit de que suma vida. No suma vida si ja està al màxim.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+R1.3 Enemics
 
-***
+Spawners: prefab que crea un determinat número d’enemics en un temps determinat. Crear aquest prefab amb intenció de utilització en el disseny de les sales del joc.
 
-# Editing this README
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+Enemics: 
+Enemic 1: persegueix al personatge i explota al estar a prop
+Enemic 2: torreta que dispara a l’enemic.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-## Name
-Choose a self-explaining name for your project.
+R1.4 Gameplay
+Gameplay:
+Personatge comença amb arma a distància. Munició limitada
+Apareixen N enemics en un interval de temps finit.
+Al morir tots els enemics esperats: joc terminat, mostrem punts
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+R1.5 Requisits generals
+Realització de mínim 1 Manager de tipus Singleton.
+Implementació de màquines d’estats, mínim 1
+Es pot realitzar amb enums i switch
+(Bonus) Fer servir el patró State
+Emprar herència e interfaces de classes.
+Es recomana en components comuns per personatges, enemics, items i armes.
+Realitzar diagrama de classes i variables/propietats
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+La temàtica i estètica és lliure sempre i quan es respecti:
+Dimensions 2D
+Estètica cartoon, pixelart o similars
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+Documentació:
+Omplir el readme del git amb un redactat del sentit del vostre joc, fitxa tècnica i instruccions del joc (comandament, tecles, etc)
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+Es pot fer servir recursos de tercers sempre i quan es respecti els seus drets d’ús. També es poden fer servir recursos propis.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Nota: en aquesta carpeta teniu una llibreria d’imatges d’elements de UI’s adquirits per l’Institut que podeu utilitzar lliurement. Són fitxer tipus zip on els elements han sigut reunits per estils.
+	Repositori de UI’s
+	Full resum de les UI’s
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+Tots aquests elements seran utilitzats més endavant en un joc més gran. Per tant dissenyeu la seva arquitectura i codi pensant en escalabilitat i level design. En aquest punt feu ús correcte de l'accessibilitat a les variables.
 
-## License
-For open source projects, say how it is licensed.
+Bonus
+(Bonus) recarregar l’arma
+(Bonus)Melee:
+Area d'impacte a 4 quadrants: nord, sud, est, oest. 
+A l’ impactar amb un enemic l'impulsa enrere. Força segons l'arma
+Segons l'arma té una cadència d'atac
+(Bonus) Dash +  Atac: atac amb dany extra en tot enemic tocat.
+(Bonus) Temàtica i mecàniques encarades a un context social, conscienciació i/o no violent.
+(Bonus) La creació d’enemics feta en forma d’onades. Es prega ser coherent amb les variables per dissenyar les onades.
+(Bonus) Aquestes onades d’enemics tenen % de probabilitat per aconseguir una varietat de creació.
+(Bonus) Realitzar diagrames de flux i de casos d’ús de com funciona el vostre joc.
+(Bonus) Ús coherent de mínim 1 ScriptableObject: definició, creació i ús.
+(Bonus) Tot element destruible te % de probabilitats per deixarà caure un item
+(Bonus) Implementació de la interactuació amb el nou Input System de Unity
+(Bonus) Interactuació amb el joc a través d’un comandament tipo xbox, playstation, etc.
+(Bonus) introducció del personatge al nivell (animació)
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Format d’entrega
+	
+Entrega en repositori GIT en el núvol. 
+Nom del projecte: M17UF2R1-CognomsNom
+Documentació en el Readme del projecte.
+Imatges o document de recull de recursos (diagrames) amb el mateix format de nom que el projecte.
+Commit a la branca master a la plataforma GITLAB amb nom: RogueLike1 - Entrega
+
