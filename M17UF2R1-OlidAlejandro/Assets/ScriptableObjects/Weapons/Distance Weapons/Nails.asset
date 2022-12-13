@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Nails
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: 7857a9662e861c349a953bc967cbe5e2, type: 3}
-  Size: 5
-  AttackVelocity: 10
-  AttackCooldown: 0.3
-  Bullet: {fileID: 4545288555734019823, guid: 88294492bbb0ce44ca9dc2b19e3804d4, type: 3}
+  AttackCooldown: 0.36
+  Prefab: {fileID: 4545288555734019823, guid: 88294492bbb0ce44ca9dc2b19e3804d4, type: 3}
   DefaultNumBullets: 20
-  NumBullets: 20
+  CurrentNumBullets: 10
+  TotalNumBullets: 10
+  MaxNumBullets: 100

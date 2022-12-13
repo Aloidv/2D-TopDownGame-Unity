@@ -18,4 +18,14 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
     }
+
+    private void Update()
+    {
+        CheckVictory();
+    }
+
+    void CheckVictory() 
+    {
+
+            }
 }

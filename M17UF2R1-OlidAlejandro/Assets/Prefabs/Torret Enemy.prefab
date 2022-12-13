@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4388578869942402150}
   - component: {fileID: 4388578869942402145}
+  - component: {fileID: 850517036}
+  - component: {fileID: 850517037}
   m_Layer: 0
   m_Name: Torret Enemy
   m_TagString: Enemy
@@ -84,3 +86,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &850517036
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4388578869942402144}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000000059604645, y: -0.03298092}
+  m_Size: {x: 0.558077, y: 0.99653816}
+  m_Direction: 0
+--- !u!114 &850517037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4388578869942402144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af427e7da018174c875443d475154f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Velocity: 5
+  cost: 3
+  enemyPrefab: {fileID: 4388578869942402144}
+  ShootCoolDown: 2
+  Prefab: {fileID: 4545288555734019822, guid: c9e8b4f2c6b331b4eb75ebae2d4e66ed, type: 3}
+  Bullet: {fileID: 11400000, guid: 31aa229573dd543429cd8ba2b3c5e1f9, type: 2}

@@ -20,10 +20,12 @@ public class Weapon : ScriptableObject
     //int AttackVelocity = 10;
 
     [SerializeField]
-    [Range(1, 10)]
+    [Range(0.1f, 10f)]
     float AttackCooldown = 1;
 
     public virtual void Attack(Transform transform) { }
+    public virtual void TakeBullets() { }
+
 
     public Sprite GetSprite() 
     {
@@ -32,6 +34,6 @@ public class Weapon : ScriptableObject
 
     public float GetAttackCoolDown()
     {
-        return AttackCooldown*10;
+        return AttackCooldown;
     }
 }

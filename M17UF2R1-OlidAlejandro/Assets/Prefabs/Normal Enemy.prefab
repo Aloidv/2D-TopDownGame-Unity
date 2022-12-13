@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1261893050055623017}
   - component: {fileID: 1261893050055622996}
   - component: {fileID: 1261893050055622999}
+  - component: {fileID: 1308208483}
   m_Layer: 0
   m_Name: Normal Enemy
   m_TagString: Enemy
@@ -99,7 +100,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.003203392, y: -0.03843975}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -110,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5195017, y: 0.96156025}
   m_EdgeRadius: 0
 --- !u!50 &1261893050055622999
 Rigidbody2D:
@@ -133,3 +134,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1308208483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261893050055623016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30c31c6380ed104c916665a48a9f201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Velocity: 5
+  cost: 1
+  enemyPrefab: {fileID: 1261893050055623016}
