@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IndexSelectedWeapon: 0
-  SelectedWeapon: {fileID: 0}
-  Weapons: {fileID: 11400000, guid: 5a4cc765ebb2e5b428266e1a9f84a2ca, type: 2}
+  SelectedWeapon: {fileID: 11400000, guid: 66dc399bc1f67974291f59a9c9b5aa7b, type: 2}
+  Weapons: {fileID: 11400000, guid: 5340dc7ff195f5844881dc93f47783ea, type: 2}
 --- !u!212 &8994561530741030910
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -246,6 +246,7 @@ MonoBehaviour:
   isDashing: 0
   CurrentHealth: 100
   MaxHealth: 100
+  Coins: 0
 --- !u!50 &8994561531186646238
 Rigidbody2D:
   serializedVersion: 4

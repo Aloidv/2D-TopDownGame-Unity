@@ -6,22 +6,28 @@ using UnityEngine;
 public class DistanceWeapon : Weapon
 {
     [SerializeField]
-    Bullet Bullet;
+    BulletPrefab Prefab;
 
     [SerializeField]
     int DefaultNumBullets = 10;
 
     [SerializeField]
-    int NumBullets = 10;
+    int CurrentNumBullets = 10;
+
+    [SerializeField]
+    int TotalNumBullets = 10;
+
+    [SerializeField]
+    int MaxNumBullets = 100;
 
     public override void Attack(Transform transform)
     {
-        if (NumBullets > 0)
+        if (CurrentNumBullets > 0)
         {
-            NumBullets--;
-            Instantiate(Bullet, transform.position, Quaternion.identity)
+            CurrentNumBullets--;
+            Instantiate(Prefab, transform.position, Quaternion.identity)
             .GetComponent<Rigidbody2D>()
-            .AddForce(transform.right * Bullet.GetBulletVelocity(), ForceMode2D.Impulse);
+            .AddForce(transform.right * Prefab.GetBullet().GetVelocity(), ForceMode2D.Impulse);
         }
         else
         {
@@ -29,9 +35,34 @@ public class DistanceWeapon : Weapon
         }
     }
 
+    public override void TakeBullets()
+    {
+        TotalNumBullets += 20;
+        if (TotalNumBullets > MaxNumBullets)
+        {
+            TotalNumBullets = MaxNumBullets;
+        }
+    }
+
     void Reloading()
     {
         Debug.Log("estoy recargando/meter animacion y tiempo");
-        NumBullets = DefaultNumBullets;
+
+        
+        if (TotalNumBullets >= DefaultNumBullets) // Si tienes mas balas que el cargador, recarga de "n" en "n" (DefaultNumBullets)
+        {
+            CurrentNumBullets = TotalNumBullets - DefaultNumBullets;
+            TotalNumBullets -= DefaultNumBullets;
+        }
+        else if (TotalNumBullets > CurrentNumBullets && TotalNumBullets < DefaultNumBullets) // Si tienes menos que un cargador pero tienes alguna, recarga las que tengas (TotalNumBullets)
+        {
+            CurrentNumBullets = TotalNumBullets;
+            TotalNumBullets -= TotalNumBullets;
+        }
+        else
+        {
+            Debug.Log("no tengo balas");
+        }
     }
+
 }

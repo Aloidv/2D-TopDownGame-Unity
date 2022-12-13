@@ -20,6 +20,11 @@ public class Loot : ScriptableObject
         return Chance;
     }
 
+    public string GetName()
+    {
+        return Name;
+    }
+
     public Sprite GetSprite()
     {
         return Sprite;

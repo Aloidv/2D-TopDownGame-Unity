@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8389db73102015a4fb5fe5cec6b02f70, type: 3}
-  m_Name: Weapon List
+  m_Script: {fileID: 11500000, guid: dd76bf43b0b5508499e9f4c2884f9392, type: 3}
+  m_Name: Nail Bullet
   m_EditorClassIdentifier: 
-  List:
-  - {fileID: 11400000, guid: d3ef9397ef48fd34aa25cba06f649296, type: 2}
-  - {fileID: 11400000, guid: 66dc399bc1f67974291f59a9c9b5aa7b, type: 2}
+  Sprite: {fileID: 21300000, guid: 7857a9662e861c349a953bc967cbe5e2, type: 3}
+  Velocity: 7
+  Size: 1
+  Name: Nails
+  Damage: 10
