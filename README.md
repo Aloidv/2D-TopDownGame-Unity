@@ -12,41 +12,51 @@ Aparecerán dos tipos de obreros: Unos necesitan herramientas y te perseguiran, 
 
 Utiliza las herramientas que más te gusten y encuentres por el mapa.
 
-## Inputs a través del Input System de Unity: 
-- Movimiento [WASD  /Joystick Izquierdo]
-- Apuntar [Ratón / Joystick Derecho]
-- Disparar [Click Izquierdo / Botón Oeste]
-- Dash (desplazamiento e inmunidad) [Espacio / Botón Sur]
-- Seguimiento de los enemigos al jugador.
+## Inputs through new Unity's Input System: 
+- Movement 
+[WASD /Left Joystick]
+- Aim 
+[Mouse / Right Joystick]
+- Shoot 
+[Left Click / West Button] 
+- Dash (displacement and immunity)
+ [Space / South Button]
+- Tracking of enemies to the player
 
-## Acciones que puedes realizar:
-- Cambio de arma (colección de 5 armas)
-- Ataque a distancia
-- Recargar (automático, si es posible)
-- Ataque Melee
-- Destruccion de LootBoxes
-- Eliminacion de enemigos
-- Recoger objetos del suelo
+## Scenes
+- Start Menu
+- Game
+- Result Menu
 
-## Enemigos: Perseguidor y torreta
+## Actions:
+- Weapon change
+- Ranged attack
+- Reload (automatic)
+- Destroy LootBoxes
+- Enemy elimination
+- Pick up objects from the ground
 
-## Mecánicas:
-- Spawn de oleadas de enemigos aleatorios, controlada por un sistema de tiempo y coste/enemigo.
-- Spawn de Loot al eliminar enemigos o LootBoxes.
-- Condición de victoria: Eliminar a todos los enemigos.
-- Condición de derrota: Vida del personaje a 0.
-- Munición limitada.
-- CoolDown de las herramientas.
+## Enemies: 
+Pursuer and turret
+
+## Mechanics:
+- Spawn of random waves of enemies, controlled by a time and cost/enemy system.
+- Spawn of Loot when eliminating enemies or LootBoxes.
+- Victory condition: Eliminate all enemies.
+- Defeat condition: Character health at 0.
+- Limited ammo.
+- Weapon CoolDown.
 
 ## HUD:
-- Barra de vida 
-- Puntos por Enemigos derrotados 
-- Puntos por monedas recogidas
+- Health Bar
+- Enemies Defeated 
+- Coins
 
-## Escenario realizado con TileMaps, con elementos destruibles y no destruibles.
+## Scenary 
+Made by TileMaps, with destructible and non destructible elements.
 
 ## Herencia:
-clases de Characters, weapons y Loot
+Characters, weapons y Loot
 
 ## Items:
 - LootBoxes (Spawn de LootPrefabs aleatorios)
@@ -55,10 +65,14 @@ clases de Characters, weapons y Loot
 - Weapons Bullets
 
 ## Scriptable Objects:
+- Character: Player and Enemies
 - Weapons
 - Bullets
 - Loot
 
 ## GameManager:
-Controla la condición de victoria y derrota
+Controlling winning and death´s condition.
+
+## Class Diagram:
+![Class Diagram](https://gitlab.com//alejandro.olid.7e5/M17UF2R1-OlidAlejandro/main/M17UF2R1-OlidAlejandro/Assets/.png)
 
