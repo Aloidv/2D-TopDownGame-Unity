@@ -166,11 +166,25 @@ public class PlayerController : MonoBehaviour
         GameManager.Instance.CheckDefeat();
     }
 
+    private void InputSeller(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Seller") && InputMaster.Gameplay.Attack.IsPressed())
+        {
+            collision.GetComponent<CanvasRenderer>().gameObject.SetActive(true);
+        }
+    }
+
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(collision.gameObject.GetComponent<EnemyController>().EnemySO.EnemyDamage * Time.deltaTime);
         }
+
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        InputSeller(collision);
     }
 }

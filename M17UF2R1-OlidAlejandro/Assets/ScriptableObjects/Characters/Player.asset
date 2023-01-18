@@ -16,10 +16,10 @@ MonoBehaviour:
   CurrentHealth: 100
   MaxHealth: 100
   Coins: 0
-  EnemiesDefeated: 5
+  EnemiesDefeated: 0
   DashCooldown: 3
   DashDuration: 0.5
   DashVelocity: 10
   DefaultVelocity: 5
   isDashing: 0
-  win: 0
+  isPurchasing: 1

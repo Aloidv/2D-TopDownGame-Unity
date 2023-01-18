@@ -12,4 +12,5 @@ public class PlayerSO : CharacterSO
     public float DashVelocity = 10;
     public float DefaultVelocity;
     public bool isDashing = false;
+    public bool isPurchasing = false;
 }
