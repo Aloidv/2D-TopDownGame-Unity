@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Wrench
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: 6ce9a91a8a246084ebc6bdf823717c47, type: 3}
-  Size: 1
-  AttackVelocity: 5
-  AttackCooldown: 0.356
+  AttackCooldown: 0.5
+  HitRadio: 2
+  Damage: 20

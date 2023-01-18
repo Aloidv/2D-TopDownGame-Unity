@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1261893050055622998}
   - component: {fileID: 1261893050055623017}
-  - component: {fileID: 1261893050055622996}
   - component: {fileID: 1261893050055622999}
   - component: {fileID: 1308208483}
+  - component: {fileID: 408341231}
+  - component: {fileID: 427167353110631370}
   m_Layer: 0
   m_Name: Normal Enemy
   m_TagString: Enemy
@@ -87,32 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1261893050055622996
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261893050055623016}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.003203392, y: -0.03843975}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8125, y: 1.0625}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.5195017, y: 0.96156025}
-  m_EdgeRadius: 0
 --- !u!50 &1261893050055622999
 Rigidbody2D:
   serializedVersion: 4
@@ -146,6 +121,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30c31c6380ed104c916665a48a9f201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocity: 5
-  cost: 1
-  enemyPrefab: {fileID: 1261893050055623016}
+  EnemySO: {fileID: 11400000, guid: 134c2c8180111b44c93c0f80a289b9a9, type: 2}
+  player: {fileID: 0}
+--- !u!114 &408341231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261893050055623016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0dbf0ffdd5d7204bbdccdcbaf8b4395, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemPrefab: {fileID: 7631517552802951939, guid: 2d5a9791fdeea704fb279d0fbaed85ae, type: 3}
+  LootList: {fileID: 11400000, guid: eaeaef28eb129f34f99fa77aa5daeff4, type: 2}
+  dropForce: 1
+--- !u!70 &427167353110631370
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261893050055623016}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.017122984, y: -0.041584134}
+  m_Size: {x: 0.5923476, y: 0.97933173}
+  m_Direction: 0

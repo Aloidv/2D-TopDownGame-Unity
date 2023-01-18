@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Current Weapon List
   m_EditorClassIdentifier: 
   List:
+  - {fileID: 11400000, guid: aea30763f39dcc94d96f8c101d6b2c14, type: 2}
   - {fileID: 11400000, guid: 66dc399bc1f67974291f59a9c9b5aa7b, type: 2}
+  - {fileID: 11400000, guid: d3ef9397ef48fd34aa25cba06f649296, type: 2}

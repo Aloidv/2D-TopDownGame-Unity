@@ -146,5 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2d49ec34a104d45898fab70dff63d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Loot: {fileID: 11400000, guid: 436585b56023c794e88d5dcd297d25c9, type: 2}
+  Loot: {fileID: 11400000, guid: de929f7cbb95efd47b888a9eb2ae7369, type: 2}
   AvaiableWeapons: {fileID: 11400000, guid: 5a4cc765ebb2e5b428266e1a9f84a2ca, type: 2}

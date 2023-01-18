@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb28bfa3ac611f43862a824b172bf5d, type: 3}
+  m_Name: Torret
+  m_EditorClassIdentifier: 
+  Velocity: 5
+  CurrentHealth: 40
+  MaxHealth: 40
+  cost: 2
+  enemyPrefab: {fileID: 4388578869942402144, guid: b32d23a024a39e34aac99432be9214eb, type: 3}
+  EnemyDamage: 10
+  ShootCoolDown: 2
+  BulletPrefab: {fileID: 4545288555734019822, guid: c9e8b4f2c6b331b4eb75ebae2d4e66ed, type: 3}
+  Bullet: {fileID: 11400000, guid: 31aa229573dd543429cd8ba2b3c5e1f9, type: 2}

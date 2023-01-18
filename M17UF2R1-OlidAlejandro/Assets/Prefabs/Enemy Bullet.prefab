@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4545288555734019821}
   - component: {fileID: 4545288555734019820}
-  - component: {fileID: 4545288555734019823}
   - component: {fileID: 554184933}
   - component: {fileID: 6655}
   - component: {fileID: 6654}
+  - component: {fileID: 5524686238213450624}
   m_Layer: 0
   m_Name: Enemy Bullet
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4545288555734019822}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.324, y: 0.615, z: 22.26}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.77466005, y: 0.77466005, z: 0.77466005}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -88,19 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4545288555734019823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4545288555734019822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e80060fb264d3484d88a117f8ff47310, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bullet: {fileID: 11400000, guid: 31aa229573dd543429cd8ba2b3c5e1f9, type: 2}
 --- !u!50 &554184933
 Rigidbody2D:
   serializedVersion: 4
@@ -154,3 +141,16 @@ CircleCollider2D:
   m_Offset: {x: 0.21380429, y: -0.19537279}
   serializedVersion: 2
   m_Radius: 0.25227398
+--- !u!114 &5524686238213450624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4545288555734019822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75dbc25310537e49bcbd37bd575a9e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bullet: {fileID: 11400000, guid: 31aa229573dd543429cd8ba2b3c5e1f9, type: 2}

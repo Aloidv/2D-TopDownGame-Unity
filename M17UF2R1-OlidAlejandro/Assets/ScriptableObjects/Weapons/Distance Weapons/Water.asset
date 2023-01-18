@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: a5f8716855a390a46898c8aeed053b54, type: 3}
   AttackCooldown: 0.75
-  Prefab: {fileID: 4545288555734019823, guid: 0660784cb4474554592095f608357c36, type: 3}
+  Bullet: {fileID: 11400000, guid: 512eb5b46a755ef419889ff0cc15d942, type: 2}
+  BulletPrefab: {fileID: 4545288555734019822, guid: 0660784cb4474554592095f608357c36, type: 3}
   DefaultNumBullets: 10
-  CurrentNumBullets: 0
-  TotalNumBullets: 0
+  CurrentNumBullets: 10
+  TotalNumBullets: 100
   MaxNumBullets: 100

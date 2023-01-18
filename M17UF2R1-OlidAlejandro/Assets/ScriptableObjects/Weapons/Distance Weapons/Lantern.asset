@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Lantern
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: a504ad6b0c9009c41a4ab37311bda19c, type: 3}
-  AttackCooldown: 1.9
-  Prefab: {fileID: 4545288555734019823, guid: 8fa40af0a3649374f87a59b19b6ea5b8, type: 3}
-  DefaultNumBullets: 2
-  CurrentNumBullets: 10
-  TotalNumBullets: 10
+  AttackCooldown: 0.5
+  Bullet: {fileID: 11400000, guid: 340aeabaf2ad865409a0275e0269effe, type: 2}
+  BulletPrefab: {fileID: 4545288555734019822, guid: 8fa40af0a3649374f87a59b19b6ea5b8, type: 3}
+  DefaultNumBullets: 10
+  CurrentNumBullets: 2
+  TotalNumBullets: 70
   MaxNumBullets: 100
