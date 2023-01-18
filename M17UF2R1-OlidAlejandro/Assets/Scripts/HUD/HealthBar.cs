@@ -5,23 +5,18 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
+    public PlayerSO PlayerSO;
     [SerializeField]
     Gradient gradient;
     Slider slider;
-    Player player;
     Image valueBar;
 
     void Start()
     {
         slider = GetComponent<Slider>();
-        player = FindObjectOfType<Player>();
         valueBar = GetComponentInChildren<Image>();
-        SetHealth(player.GetCurrentHealth());
+        SetHealth((int)PlayerSO.CurrentHealth);
         valueBar.color = gradient.Evaluate(1f);
-    }
-
-    void Update()
-    {
     }
 
     public void SetHealth(int health)

@@ -16,4 +16,4 @@ MonoBehaviour:
   Velocity: 10
   Size: 1
   Name: Light
-  Damage: 20
+  Damage: 5

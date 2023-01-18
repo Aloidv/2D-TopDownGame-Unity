@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4388578869942402150}
   - component: {fileID: 4388578869942402145}
   - component: {fileID: 850517036}
-  - component: {fileID: 850517037}
+  - component: {fileID: 2053304134}
+  - component: {fileID: 8121490756693337477}
   m_Layer: 0
   m_Name: Torret Enemy
   m_TagString: Enemy
@@ -102,7 +103,22 @@ CapsuleCollider2D:
   m_Offset: {x: -0.000000059604645, y: -0.03298092}
   m_Size: {x: 0.558077, y: 0.99653816}
   m_Direction: 0
---- !u!114 &850517037
+--- !u!114 &2053304134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4388578869942402144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0dbf0ffdd5d7204bbdccdcbaf8b4395, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemPrefab: {fileID: 7631517552802951939, guid: 2d5a9791fdeea704fb279d0fbaed85ae, type: 3}
+  LootList: {fileID: 11400000, guid: eaeaef28eb129f34f99fa77aa5daeff4, type: 2}
+  dropForce: 1
+--- !u!114 &8121490756693337477
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,9 +130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6af427e7da018174c875443d475154f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocity: 5
-  cost: 3
-  enemyPrefab: {fileID: 4388578869942402144}
-  ShootCoolDown: 2
-  Prefab: {fileID: 4545288555734019822, guid: c9e8b4f2c6b331b4eb75ebae2d4e66ed, type: 3}
-  Bullet: {fileID: 11400000, guid: 31aa229573dd543429cd8ba2b3c5e1f9, type: 2}
+  EnemySO: {fileID: 11400000, guid: a6c1f61c208aaf241b860415c9af5ad4, type: 2}
+  player: {fileID: 0}
+  TorretSO: {fileID: 11400000, guid: a6c1f61c208aaf241b860415c9af5ad4, type: 2}

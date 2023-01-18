@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tape
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: 030c4d4b5a055064789d47d10dc7947e, type: 3}
-  Size: 1
-  AttackVelocity: 5
   AttackCooldown: 1
+  HitRadio: 1
+  Damage: 10

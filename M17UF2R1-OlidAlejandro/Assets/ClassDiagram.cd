@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="@InputMaster" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="@InputMaster.GameplayActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Input\InputMaster.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Interface Name="@InputMaster.IGameplayActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Input\InputMaster.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAQCACAAAFgAAACACNABAAAgAGBEAAEwAABQAAA=</HashCode>
+      <FileName>Assets\Input\InputMaster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Bullet">
+    <Position X="15.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAgAkACAAAAAAAQAAAAAAEAQAAAAAAAEBAA=</HashCode>
+      <FileName>Assets\Scripts\Bullets\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyBulletController">
+    <Position X="7.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Bullets\EnemyBulletController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBulletController">
+    <Position X="5.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Bullets\PlayerBulletController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraMovement">
+    <Position X="17.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSO">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\CharacterSO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyController">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAQAAAABAAAAAAAAAAEAGABAIAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\EnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySO">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\EnemySO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQQAAAAAACAAQFAAFAgAIAQEAAIAAAAgAKAIgIAwAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSO">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAQCAIAAAACAAAgAIAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerSO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TorretController">
+    <Position X="9.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABAAAAAAAAAAAAQAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Characters\TorretController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TorretSO">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\TorretSO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="17.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAEAAAQAAAAAAAAAQAAAQAAAAEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySpawner">
+    <Position X="15.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEiIAAAAADACECAAABAAAAAABAAMAQAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\EnemySpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LootBoxSpawner">
+    <Position X="15.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAACEAAAAAAAAACAAAAMAAAAABBA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\LootBoxSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProvisionalExit">
+    <Position X="17.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\ProvisionalExit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletsCounter">
+    <Position X="23.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAgAAEAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HUD\BulletsCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoinCounter">
+    <Position X="23.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HUD\CoinCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyCounter">
+    <Position X="23.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HUD\EnemyCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthBar">
+    <Position X="21.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAQAAABAAAAAAAQAAAAAAEAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HUD\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayButton">
+    <Position X="21.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HUD\PlayButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultMessage">
+    <Position X="21.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HUD\ResultMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Loot">
+    <Position X="17.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAQAAAAAAAQQAAAAAAABBAQ=</HashCode>
+      <FileName>Assets\Scripts\Loot\Loot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LootBoxPrefab">
+    <Position X="9.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAIAEAAAAAAAAACAAEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Loot\LootBoxPrefab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LootList">
+    <Position X="17.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Loot\LootList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LootPrefab">
+    <Position X="11.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Loot\LootPrefab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistanceWeapon">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAEAAIAAIIAAAAAAkCEQEAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\DistanceWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeleeWeapon">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\MeleeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAgAAAAIAAAIAQAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponHolder">
+    <Position X="11.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUCAAAAACABACAAEAAAAAAAAIAAAAAQAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\WeaponHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponList">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Weapons\WeaponList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
