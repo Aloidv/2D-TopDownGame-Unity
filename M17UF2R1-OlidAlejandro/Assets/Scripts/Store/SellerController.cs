@@ -1,19 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SellerController : MonoBehaviour
 {
-    public CanvasRenderer Store;
+    public Canvas Store;
+    public PlayerSO playerSO;
+    private bool isStoreOpen = false;
+    InputMaster InputMaster;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void Start()
+    {
+        InputMaster = new InputMaster();
+        InputMaster.Gameplay.Enable();
+    }
+
+    private void Update()
+    {
+        if (isStoreOpen)
+        {
+            InputBuyItem();
+            InputStoreExit();
+
+        }
+    }
+
+    private void InputBuyItem()
+    {
+
+    }
+
+    private void InputStoreExit()
+    {
+        if (InputMaster.Gameplay.Dash.WasPressedThisFrame())
+        {
+            isStoreOpen = false;
+            Store.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            var option = collision.GetComponent<PlayerController>().playerSO.isPurchasing;
-            if (option)
+            if (collision.GetComponent<PlayerController>().playerSO.isPurchasing)
             {
                 Store.gameObject.SetActive(true);
+                isStoreOpen = true;
             }
         }
     }

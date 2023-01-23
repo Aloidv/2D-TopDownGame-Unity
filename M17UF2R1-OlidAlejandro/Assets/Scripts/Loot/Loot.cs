@@ -15,9 +15,17 @@ public class Loot : ScriptableObject
     [SerializeField]
     internal int Chance;
 
+    [SerializeField]
+    internal int Price;
+
     public int GetChance()
     {
         return Chance;
+    }
+
+    public int GetPrice()
+    {
+        return Price;
     }
 
     public string GetName()

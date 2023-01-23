@@ -7,7 +7,6 @@ public class StoreController : MonoBehaviour
     private void Start()
     {
         var playerSO = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().playerSO;
-        
     }
 
     private void Update()
