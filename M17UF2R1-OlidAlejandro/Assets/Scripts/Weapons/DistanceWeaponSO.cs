@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Distance Weapon", menuName = "ScriptableObject/Distance Weapon")]
-public class DistanceWeapon : Weapon
+public class DistanceWeaponSO : WeaponSO
 {
     [SerializeField]
     Bullet Bullet;

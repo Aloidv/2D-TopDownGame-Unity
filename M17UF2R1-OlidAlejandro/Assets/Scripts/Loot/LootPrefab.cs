@@ -7,7 +7,7 @@ public class LootPrefab : MonoBehaviour
     public Loot Loot;
 
     [SerializeField]
-    WeaponList AvaiableWeapons;
+    WeaponListSO AvaiableWeapons;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

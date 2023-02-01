@@ -416,9 +416,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Item: {fileID: 0}
-  PlayerController: {fileID: 0}
-  playerSO: {fileID: 0}
-  AvaiableWeapons: {fileID: 0}
+  ImageItemStore: {fileID: 2037158637}
+  TextItemStore: {fileID: 1872214038}
 --- !u!1 &258237770
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,7 +986,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1135799194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1393,9 +1392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Item: {fileID: 0}
-  PlayerController: {fileID: 0}
-  playerSO: {fileID: 0}
-  AvaiableWeapons: {fileID: 0}
+  ImageItemStore: {fileID: 1314413114}
+  TextItemStore: {fileID: 475862721}
 --- !u!1 &1412228206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,6 +1684,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872214036}
   m_CullTransparentMesh: 1
+--- !u!114 &1946083896 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8994561531186646225, guid: 56f1f7c755d5d9542ad00009bf7004f8, type: 3}
+  m_PrefabInstance: {fileID: 878366043}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 916620d0912a9244fb1b3c933c39c60f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1948525771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1987,6 +1996,38 @@ PrefabInstance:
       propertyPath: Store
       value: 
       objectReference: {fileID: 1135799196}
+    - target: {fileID: -85076438699034301, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
+      propertyPath: PlayerSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 805974467c360c5479894e4bd322306d, type: 2}
+    - target: {fileID: -85076438699034301, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
+      propertyPath: playerSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 805974467c360c5479894e4bd322306d, type: 2}
+    - target: {fileID: -85076438699034301, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
+      propertyPath: ItemStore_1
+      value: 
+      objectReference: {fileID: 2106333991}
+    - target: {fileID: -85076438699034301, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
+      propertyPath: ItemStore_2
+      value: 
+      objectReference: {fileID: 2106333991}
+    - target: {fileID: -85076438699034301, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
+      propertyPath: ItemStore_3
+      value: 
+      objectReference: {fileID: 1396597464}
+    - target: {fileID: -85076438699034301, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
+      propertyPath: isStoreOpen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -85076438699034301, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
+      propertyPath: PlayerController
+      value: 
+      objectReference: {fileID: 1946083896}
+    - target: {fileID: -85076438699034301, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
+      propertyPath: StoreAvaiableItemsSO
+      value: 
+      objectReference: {fileID: 11400000, guid: eaeaef28eb129f34f99fa77aa5daeff4, type: 2}
     - target: {fileID: 850517036, guid: 3eec149ea5375a049a5bc574f5280a18, type: 3}
       propertyPath: m_Size.x
       value: 2.419748
@@ -2210,9 +2251,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Item: {fileID: 0}
-  PlayerController: {fileID: 0}
-  playerSO: {fileID: 0}
-  AvaiableWeapons: {fileID: 0}
+  ImageItemStore: {fileID: 741732128}
+  TextItemStore: {fileID: 523309240}
 --- !u!1001 &7503611905656995043
 PrefabInstance:
   m_ObjectHideFlags: 0

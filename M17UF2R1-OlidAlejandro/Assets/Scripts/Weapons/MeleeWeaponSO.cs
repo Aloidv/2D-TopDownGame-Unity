@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Melee Weapon", menuName = "ScriptableObject/Melee Weapon")]
-public class MeleeWeapon : Weapon
+public class MeleeWeaponSO : WeaponSO
 {
     public override void Attack(Transform transform)
     {

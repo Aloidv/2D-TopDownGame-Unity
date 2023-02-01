@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Weapon List", menuName = "ScriptableObject/Weapon List")]
-public class WeaponList : ScriptableObject
+public class WeaponListSO : ScriptableObject
 {
-    public List<Weapon> List;
+    public List<WeaponSO> List;
 
-    public Weapon findByName(string name)
+    public WeaponSO findByName(string name)
     {
-        foreach (Weapon weapon in List)
+        foreach (WeaponSO weapon in List)
         {
             if (weapon.name == name)
             {

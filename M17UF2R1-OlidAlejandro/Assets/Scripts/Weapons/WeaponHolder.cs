@@ -7,10 +7,10 @@ public class WeaponHolder : MonoBehaviour
     int IndexSelectedWeapon = 0;
 
     [SerializeField]
-    Weapon SelectedWeapon;
+    WeaponSO SelectedWeapon;
 
     [SerializeField]
-    WeaponList Weapons;
+    WeaponListSO Weapons;
 
     SpriteRenderer spriteRenderer;
 
@@ -52,7 +52,7 @@ public class WeaponHolder : MonoBehaviour
 
     private void SelectWeapon()
     {
-        foreach (Weapon weapon in Weapons.List)
+        foreach (WeaponSO weapon in Weapons.List)
         {
             if (IndexSelectedWeapon == Weapons.List.IndexOf(weapon))
             {
@@ -61,12 +61,12 @@ public class WeaponHolder : MonoBehaviour
         }
     }
 
-    public Weapon GetSelectedWeapon()
+    public WeaponSO GetSelectedWeapon()
     {
         return SelectedWeapon;
     }
 
-    public WeaponList GetWeapons()
+    public WeaponListSO GetWeapons()
     {
         return Weapons;
     }

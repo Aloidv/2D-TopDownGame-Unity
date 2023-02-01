@@ -8,29 +8,14 @@ public class LootBoxPrefab : MonoBehaviour
     GameObject ItemPrefab;
 
     [SerializeField]
-    LootList LootList;
+    LootListSO LootList;
 
     [SerializeField]
     float dropForce = 3f;
 
-    Loot GetItem()
-    {
-        int randomNum = Random.Range(1, 101);
-        List<Loot> itemList = new List<Loot>();
-        foreach (Loot item in LootList.List)
-        {
-            if (randomNum <= item.GetChance())
-            {
-                itemList.Add(item);
-            }
-        }
-        
-        return itemList[Random.Range(0, itemList.Count)];
-    }
-
     public void DropLot()
     {
-        Loot droppedItem = GetItem();
+        Loot droppedItem = LootList.GetRandomItem();
         if (droppedItem != null)
         {
             GameObject item = Instantiate(ItemPrefab, transform.position, Quaternion.identity);

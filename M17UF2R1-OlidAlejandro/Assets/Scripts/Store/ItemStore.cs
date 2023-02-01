@@ -1,34 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
+//[CreateAssetMenu(fileName = "New List Store Avaiable Items", menuName = "ScriptableObject/Player")]
 public class ItemStore : MonoBehaviour
 {
-    [SerializeField]
-    Loot Item;
-    
-    [SerializeField]
-    PlayerController PlayerController;
-    
-    [SerializeField]
-    PlayerSO playerSO;
-    
-    [SerializeField]
-    WeaponList AvaiableWeapons;
-
-    public void BuyItem()
-    {
-        playerSO.Coins -= Item.GetPrice();
-
-        switch (Item.GetName())
-        {
-            case "Health":
-                PlayerController.Healing();
-                break;
-            default:
-                PlayerController.TakeWeapon(AvaiableWeapons.findByName(Item.GetName()));
-                break;
-        }
-    }
-
+    public Loot Item;
+    public Image ImageItemStore;
+    public TMP_Text TextItemStore;
 }

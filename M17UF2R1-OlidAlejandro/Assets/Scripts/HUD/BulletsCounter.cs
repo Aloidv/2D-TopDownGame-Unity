@@ -19,7 +19,7 @@ public class BulletsCounter : MonoBehaviour
     void Update()
     {
         image.sprite = weaponHolder.GetSelectedWeapon().GetSprite();
-        var iWantUseDWnotWeapon = (DistanceWeapon) weaponHolder.GetSelectedWeapon();
+        var iWantUseDWnotWeapon = (DistanceWeaponSO) weaponHolder.GetSelectedWeapon();
         TMP.text = iWantUseDWnotWeapon.GetTotalNumBullets().ToString() + " / " + iWantUseDWnotWeapon.GetCurrentNumBullets().ToString();
     }
 }

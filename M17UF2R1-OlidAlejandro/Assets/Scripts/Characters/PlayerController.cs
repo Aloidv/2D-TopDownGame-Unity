@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     public PlayerSO playerSO;
     public WeaponHolder WeaponHolder;
-    public Weapon SelectedWeapon;
+    public WeaponSO SelectedWeapon;
 
     void Start()
     {
@@ -140,10 +140,10 @@ public class PlayerController : MonoBehaviour
         playerSO.EnemiesDefeated++;
     }
 
-    public void TakeWeapon(Weapon newWeapon)
+    public void TakeWeapon(WeaponSO newWeapon)
     {
         bool found = false;
-        foreach (Weapon weapon in WeaponHolder.GetWeapons().List)
+        foreach (WeaponSO weapon in WeaponHolder.GetWeapons().List)
         {
             if (newWeapon.name == weapon.name)
             {

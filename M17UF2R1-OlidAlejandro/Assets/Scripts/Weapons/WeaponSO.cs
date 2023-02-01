@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Weapon", menuName = "ScriptableObject/Weapon")]
-public class Weapon : ScriptableObject
+public class WeaponSO : ScriptableObject
 {
     [Header("Weapon Settings")]
 

@@ -48,6 +48,16 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Result");
     }
 
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1;
+    }
+
     public void ResetGame()
     {
         ResetPlayerStats();
