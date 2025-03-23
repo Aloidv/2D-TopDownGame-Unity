@@ -5,13 +5,6 @@
 
 ```
 
-## Temática:
-Quieres irte rapido a casa a jugar al Hades, para ello ayuda al equipo de obreros de tu padre.
-
-Aparecerán dos tipos de obreros: Unos necesitan herramientas y te perseguiran, otros se quedarán quietos y te llamarán. Intenta no perder la paciencia, si no se acabará la partida.
-
-Utiliza las herramientas que más te gusten y encuentres por el mapa.
-
 ## Inputs through new Unity's Input System: 
 - Movement 
 [WASD /Left Joystick]
